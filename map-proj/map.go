@@ -37,6 +37,14 @@ func main() {
 	rating["Go"] = 4.5
 	rating["React"] = 4.8
 
+	for range userName {
+		// print(i)
+	}
+
+	for i, val := range userName {
+		print(i, val)
+	}
+
 	for i := range userName {
 		print(i)
 	}
